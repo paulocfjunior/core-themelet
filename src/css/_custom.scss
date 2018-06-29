@@ -3,11 +3,16 @@
 .cs-white {
     .header-buttons .header-user-btn {
         background: transparent none;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+        will-change: background, color;
     }
 }
 
 .cs-blue .header-buttons .header-user-btn {
-    border: 1px solid #0093cc;
+    border: 1px solid #FFF;
 
     &:hover, &:active, &:focus {
         background-color: #FFF;
@@ -16,7 +21,7 @@
 }
 
 .cs-red .header-buttons .header-user-btn {
-    border: 1px solid #903;
+    border: 1px solid #FFF;
 
     &:hover, &:active, &:focus {
         background-color: #FFF;
