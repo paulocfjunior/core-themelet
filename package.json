@@ -1,13 +1,27 @@
 {
-	"name": "efx-buttons-themelet",
-	"version": "1.0.0",
-	"main": "package.json",
-	"keywords": [
-		"liferay-theme"
-	],
-	"liferayTheme": {
-		"screenshot": "",
-		"themelet": true,
-		"version": "7.0"
-	}
+  "name": "efx-buttons-themelet",
+  "version": "1.0.0",
+  "description": "An example to use Liferay themelets.",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulocfjunior/efx-buttons-themelet.git"
+  },
+  "keywords": [
+    "liferay-theme"
+  ],
+  "liferayTheme": {
+    "screenshot": "",
+    "themelet": true,
+    "version": "7.0"
+  },
+  "author": "paulocfjunior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulocfjunior/efx-buttons-themelet/issues"
+  },
+  "homepage": "https://github.com/paulocfjunior/efx-buttons-themelet#readme"
 }
