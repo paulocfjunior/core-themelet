@@ -1,0 +1,33 @@
+.btn {
+    border-width: 1px;
+    background: transparent;
+    margin: 5px;
+    font-weight: bold;
+
+    &.btn-info {
+        color: #5bc0de;
+        border-color: #46b8da;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &.btn-warning {
+        color: #f0ad4e;
+        border-color: #eea236;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &.btn-success {
+        color: #5cb85c;
+        border-color: #4cae4c;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+}

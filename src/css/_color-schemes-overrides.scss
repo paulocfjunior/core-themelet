@@ -1,0 +1,56 @@
+.cs-blue,
+.cs-red,
+.cs-white {
+    .header-buttons .header-user-btn {
+        background: transparent none;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+        will-change: background, color;
+
+        &:active {
+            box-shadow: 0 2px 5px rgba(44, 44, 44, 0.6) inset;
+        }
+    }
+}
+
+.cs-blue .header-buttons .header-user-btn {
+    border: 1px solid #FFF;
+
+    &:hover, &:active, &:focus {
+        background-color: #FFF;
+        color: #0093cc;
+    }
+
+    &:active {
+        border-color: #0093cc;
+    }
+}
+
+.cs-red .header-buttons .header-user-btn {
+    border: 1px solid #FFF;
+
+    &:hover, &:active, &:focus {
+        background-color: #FFF;
+        color: #903;
+    }
+
+    &:active {
+        border-color: #903;
+    }
+}
+
+.cs-white .header-buttons .header-user-btn {
+    border: 1px solid #903;
+    color: #903;
+
+    &:hover, &:active, &:focus {
+        background-color: #903;
+        color: #FFF;
+    }
+
+    &:active {
+        border-color: #FFF;
+    }
+}
