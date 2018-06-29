@@ -1,0 +1,19 @@
+.cs-blue,
+.cs-red,
+.cs-white {
+    .header-buttons .header-user-btn {
+        background: transparent none;
+    }
+}
+
+.cs-blue .header-buttons .header-user-btn {
+    border-color: #0093cc;
+}
+
+.cs-red .header-buttons .header-user-btn {
+    border-color: #903;
+}
+
+.cs-white .header-buttons .header-user-btn {
+    border-color: #364047;
+}
