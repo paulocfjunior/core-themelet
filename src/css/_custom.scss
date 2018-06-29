@@ -7,13 +7,28 @@
 }
 
 .cs-blue .header-buttons .header-user-btn {
-    border-color: #0093cc;
+    border: 1px solid #0093cc;
+
+    &:hover, &:active, &:focus {
+        background-color: #0093cc;
+        color: #FFF;
+    }
 }
 
 .cs-red .header-buttons .header-user-btn {
-    border-color: #903;
+    border: 1px solid #903;
+
+    &:hover, &:active, &:focus {
+        background-color: #903;
+        color: #FFF;
+    }
 }
 
 .cs-white .header-buttons .header-user-btn {
-    border-color: #364047;
+    border: 1px solid #364047;
+
+    &:hover, &:active, &:focus {
+        background-color: #364047;
+        color: #FFF;
+    }
 }
