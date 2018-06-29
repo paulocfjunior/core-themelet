@@ -1,6 +1,6 @@
 {
   "name": "efx-buttons-themelet",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An example to use Liferay themelets.",
   "main": "package.json",
   "scripts": {
