@@ -9,7 +9,7 @@
     transition: all 200ms;
     will-change: background, color;
 
-    &.btn-default {
+    &.btn-default:not(.btn-primary):not(.btn-secondary) {
         font-weight: normal;
         color: #333;
         border-color: #333;
