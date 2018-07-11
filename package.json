@@ -11,7 +11,8 @@
     "url": "git+https://github.com/paulocfjunior/efx-buttons-themelet.git"
   },
   "keywords": [
-    "liferay-theme"
+    "liferay-theme",
+    "efx-buttons-themelet"
   ],
   "liferayTheme": {
     "screenshot": "",
